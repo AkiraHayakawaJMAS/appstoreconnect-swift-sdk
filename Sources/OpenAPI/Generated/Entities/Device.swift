@@ -29,6 +29,7 @@ public struct Device: Codable, Identifiable {
 			case ipod = "IPOD"
 			case appleTv = "APPLE_TV"
 			case mac = "MAC"
+            case appleVisionPro = "APPLE_VISION_PRO"
 		}
 
 		public enum Status: String, Codable, CaseIterable {
